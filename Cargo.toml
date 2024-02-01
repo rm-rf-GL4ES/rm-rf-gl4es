@@ -2,7 +2,10 @@
 name = "rm-rf-gl4es"
 version = "0.1.0"
 edition = "2021"
+build = "build.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+[build-dependencies]
+clang = "2.0.0"
+bindgen = "0.69.2"
